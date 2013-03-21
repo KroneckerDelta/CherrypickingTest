@@ -9,4 +9,12 @@ public class BranchA {
 	private void doNothing() {
 		// this place is for your commercial
 	}
+	
+	public void doSomething(){
+		int i = 0;
+		i++;
+		doNothing();
+		
+	}
+	
 }
