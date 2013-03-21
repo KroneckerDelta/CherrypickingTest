@@ -3,8 +3,10 @@ package de.mic.gitdemo.cherrypicking;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
-public class BranchATest {
+@Category(SlowTest.class)
+public class BranchATest implements AbstractBranchTest {
 
 	@Test
 	public void shouldDoSomething() {
