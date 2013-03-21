@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 @Category(SlowTest.class)
-public class BranchATest implements AbstractBranchTest {
+public class BranchATest {
 
 	@Test
 	public void shouldDoSomething() {
