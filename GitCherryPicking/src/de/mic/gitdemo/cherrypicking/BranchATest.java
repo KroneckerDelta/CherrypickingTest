@@ -15,4 +15,10 @@ public class BranchATest implements AbstractBranchTest {
 		assertTrue(true);
 		//really!
 	}
+
+	@Override
+	public void setupSomethingDoesntMatter() {
+		int i = 0;
+	}
+	
 }
