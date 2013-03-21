@@ -1,0 +1,7 @@
+package de.mic.gitdemo.cherrypicking;
+
+
+public interface SlowTest {
+
+	
+}
