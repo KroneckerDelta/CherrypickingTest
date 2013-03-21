@@ -6,7 +6,8 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 
 @Category(SlowTest.class)
-public class BranchATest {
+public class BranchATest implements AbstractBranchTest {
+
 
 	@Test
 	public void shouldDoSomething() {
@@ -15,4 +16,10 @@ public class BranchATest {
 		assertTrue(true);
 		//really!
 	}
+
+	@Override
+	public void setupSomethingDoesntMatter() {
+		int i = 0;
+	}
+	
 }
